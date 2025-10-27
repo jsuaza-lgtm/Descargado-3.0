@@ -11,7 +11,7 @@ import uuid
 app = Flask(__name__)
 
 # Configuración - REEMPLAZA con tu URL real de Apps Script
-APP_SCRIPT_URL = "https://script.google.com/u/0/home/projects/1YxG1cApY3vFhOfSlx6QBSdF_twB1dycik6DvOg46vwXN2xF8iPxquyC3/edit?pli=1"
+APP_SCRIPT_URL = "https://script.google.com/macros/s/1YxG1cApY3vFhOfSix6QB6dE_twB1dyckk0nVog4bvvXNZxF8lPxquyC3/exec"
 
 class DownloadManager:
     def __init__(self):
@@ -179,3 +179,4 @@ def download_zip(download_id):
 if __name__ == '__main__':
 
     app.run(debug=True)
+
